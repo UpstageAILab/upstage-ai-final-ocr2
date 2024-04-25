@@ -42,7 +42,7 @@
 
 - Receipt Text Detection
 
- 기본적으로 우리가 늘 사용하는 Python과 딥러닝 프레임워크인 TensorFlow 또는 PyTorch를 사용하여 모델을 구현하고 학습시킬 것입니다. 업스테이지에서 제공해주는 코드 패키지에서도 이미 PyTorch를 통해 코드가 구현되어 있기 때문에, 이것을 기반으로 여러 조건들을 수정해가면서 H-Mean, Precision, Recall 값이 가장 높아지는 방향으로 OCR을 계속해서 진행하였습니다.  또한, 이미지 처리를 위해 OpenCV와 같은 라이브러리도 활용될 수 있습니다.
+ 딥러닝 프레임워크인 TensorFlow 또는 PyTorch를 사용하여 모델을 구현하고 학습하였습니다. 업스테이지에서 제공해주는 코드 패키지에서도 이미 PyTorch를 통해 코드가 구현되어 있기 때문에, 이것을 기반으로 여러 조건들을 수정해가면서 H-Mean, Precision, Recall 값이 가장 높아지는 방향으로 OCR을 계속해서 진행하였습니다.  또한, 이미지 처리를 위해 OpenCV와 같은 라이브러리도 활용될 수 있습니다.
 
 ### Environment
 - Windows 11
