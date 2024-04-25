@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nDCOQnZo)
 
-# Title (Please modify the title)
+# Receipt Text Detection (영수증 글자 검출 영수증 사진에서 글자 위치를 추출하는 태스크를 수행합니다. #비공개대회 #UpstageAILab1기 #OCR)
 ## Team
 
 | ![우승현](https://avatars.githubusercontent.com/u/156163982?v=4) | ![송현지](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이재민](https://avatars.githubusercontent.com/u/156163982?v=4) | ![배창현](https://avatars.githubusercontent.com/u/156163982?v=4) |
