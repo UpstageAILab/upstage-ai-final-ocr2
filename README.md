@@ -90,7 +90,7 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ### Environment
 - Windows 11
-- OpenVPN v2.6.5: Upstage server 접근 및 사용을 위한 VPN (3090 GPU)
+- OpenVPN v2.6.5: Upstage server 접근 및 사용을 위한 VPN (Linux, 3090 GPU)
 - Visual Studio Code v1.88.1 (SSH 서버 접속 및 pyhon 사용을 위한 IDE)
 
 ### Requirements
