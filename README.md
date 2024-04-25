@@ -6,7 +6,7 @@
 | ![우승현](https://avatars.githubusercontent.com/u/156163982?v=4) | ![송현지](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이재민](https://avatars.githubusercontent.com/u/156163982?v=4) | ![배창현](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [우승현](https://github.com/fromwsh)             |            [송현지](https://github.com/UpstageAILab)             |            [이재민](https://github.com/UpstageAILab)             |            [배창현](https://github.com/UpstageAILab)             |
-|                            팀장, 담당 역할                             |                            역할                             |                            역할                             |                            역할                             |
+|                            팀장                             |                            팀원                             |                            팀원                             |                            팀원                             |
 
 ## 0. Overview
 ### Environment
