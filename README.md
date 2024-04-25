@@ -127,7 +127,7 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 - _Insert your directory structure_
 
 ```
-BASELINE_CODE
+* BASELINE_CODE
 
 ├─── README.md
 ├─── configs
@@ -262,7 +262,8 @@ BASELINE_CODE
 ```
 
 ```
-데이터셋 디렉토리 구조
+* 데이터셋 디렉토리 구조
+
 ├─── images
 │   ├── train
 │   │   ├── drp.en_ko.in_house.selectstar_NNNNNN.jpg
