@@ -9,52 +9,6 @@
 |                            팀장                             |                            팀원                             |                            팀원                             |                            팀원                             |
 
 
-### **1. 경진대회 개요**
-
-- Receipt Text Detection
-
-1. 경진대회 구현 내용, 컨셉, 교육 내용과의 관련성 등:
- 
-
-
-3. 경진대회 구조 및 사용 데이터셋의 구조도(연관도):
-
-
-```
-※ 사용 데이터셋의 구조도(연관도)
-
-├─── images
-│   ├── train
-│   │   ├── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-│   │   ├── ...
-│   │   └── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-│   ├── val
-│   │   ├── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-│   │   ├── ...
-│   │   └── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-│   └── test
-│   │   ├── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-│   │   ├── ...
-│   │   └── drp.en_ko.in_house.selectstar_NNNNNN.jpg
-└─── jsons
-    ├── train.json
-    ├── val.json
-    └── test.json
-
-* 학습 데이터셋:
-images/train 및 images/val 디렉토리에는 학습용 영수증 이미지들이 포함되어 있습니다.
-jsons 디렉토리에는 train.json 및 val.json 파일이 있으며, 이 파일들은 학습 데이터의 레이블 정보를 담고 있습니다.
-train과 val은 학습을 용이하게 하기 위해 구분되어 있지만, 필요에 따라 재분류하거나 학습에 사용해도 좋습니다.
-
-* 평가 데이터셋:
-images/test 디렉토리에는 평가용 영수증 이미지들이 저장되어 있습니다.
-jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 test.json 파일이 있습니다.
-```
-
-### **2. 경진대회 팀 구성 및 역할** (팀원 별로 주도적으로 참여한 부분을 중심으로 간략히 작성)
-
-- 우승현(팀장): 저희 조는 직장인 및 대학원 팀으로서 github의 팀 결성에 실패했으며 단체 회의 없이 개인 각각이 별도의 활동을 진행하게 됐습니다. 해당 page에서는 OCR 2조 우승현이 진행한 내용을 바탕으로만 적도록 하겠습니다. 다른 팀원들은 별도의 README.md를 제출할 것으로 보입니다.
-
 ### **3. 경진대회 수행 절차 및 방법**
 
 - 경진대회의 기획과 수행 및 완료 과정이 드러나게 작성해 주세요.
@@ -86,11 +40,13 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ## 0. Overview
 
+- Receipt Text Detection
+
  기본적으로 우리가 늘 사용하는 Python과 딥러닝 프레임워크인 TensorFlow 또는 PyTorch를 사용하여 모델을 구현하고 학습시킬 것입니다. 업스테이지에서 제공해주는 코드 패키지에서도 이미 PyTorch를 통해 코드가 구현되어 있기 때문에, 이것을 기반으로 여러 조건들을 수정해가면서 H-Mean, Precision, Recall 값이 가장 높아지는 방향으로 OCR을 계속해서 진행하였습니다.  또한, 이미지 처리를 위해 OpenCV와 같은 라이브러리도 활용될 수 있습니다.
 
 ### Environment
 - Windows 11
-- OpenVPN v2.6.5: Upstage server 접근 및 사용을 위한 VPN (Linux, 3090 GPU)
+- OpenVPN v2.6.5: Upstage server 접근 및 사용을 위한 VPN (Linux, Upstage 3090 GPU)
 - Visual Studio Code v1.88.1 (SSH 서버 접속 및 pyhon 사용을 위한 IDE)
 
 ### Requirements
@@ -280,6 +236,16 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
     ├── val.json
     └── test.json
 ```
+
+* 학습 데이터셋:
+images/train 및 images/val 디렉토리에는 학습용 영수증 이미지들이 포함되어 있습니다.
+jsons 디렉토리에는 train.json 및 val.json 파일이 있으며, 이 파일들은 학습 데이터의 레이블 정보를 담고 있습니다.
+train과 val은 학습을 용이하게 하기 위해 구분되어 있지만, 필요에 따라 재분류하거나 학습에 사용해도 좋습니다.
+
+* 평가 데이터셋:
+images/test 디렉토리에는 평가용 영수증 이미지들이 저장되어 있습니다.
+jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 test.json 파일이 있습니다.
+
 
 ## 3. Data descrption
 
