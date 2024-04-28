@@ -298,7 +298,7 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
+[우승현.pdf](https://github.com/UpstageAILab/upstage-ai-final-ocr2/files/15142286/default.pdf)
 
 ### etc
 
