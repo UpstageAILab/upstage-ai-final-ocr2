@@ -307,4 +307,4 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ### Reference
 
-- _Insert related reference_
+- https://stages.ai/competitions/293/overview/description
