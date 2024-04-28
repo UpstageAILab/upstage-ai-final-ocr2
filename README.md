@@ -294,17 +294,15 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ![image](https://github.com/UpstageAILab/upstage-ai-final-ocr2/assets/150412380/547a24d1-cc9c-4186-8b4d-4a5776a06256)
 
-- _Write rank and score_
+- 3등 / H-Mean 0.9279 / Precision 0.9553 / Recall 0.9056
 
 ### Presentation
 
 - _Insert your presentaion file(pdf) link_
 
-## etc
-
 ### Meeting Log
 
-- _Insert your meeting log link like Notion or Google Docs_
+- 저희 조는 대학원 및 직장인 팀으로서 한 번도 모임을 가질 수가 없었기에 각자가 결과물을 제출하게 되었습니다. 감사합니다.
 
 ### Reference
 
