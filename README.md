@@ -293,6 +293,8 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 ### Leader Board
 
 - _Insert Leader Board Capture_
+- ![image](https://github.com/UpstageAILab/upstage-ai-final-ocr2/assets/150412380/547a24d1-cc9c-4186-8b4d-4a5776a06256)
+
 - _Write rank and score_
 
 ### Presentation
