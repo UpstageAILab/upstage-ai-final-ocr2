@@ -213,9 +213,7 @@
     └─── train.py
 ```
 
----
-## 모델 및 학습 설정
-### 파일 구조
+
 ```plaintext
 └─── configs
     ├── preset
