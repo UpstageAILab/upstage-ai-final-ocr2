@@ -242,6 +242,23 @@
     └── predict.yaml
 ```
 
+```plaintext
+└─── outputs
+    └── {exp_name}
+        ├── .hydra
+        │   ├── overrides.yaml
+        │   ├── config.yaml
+        │   └── hydra.yaml
+        ├── checkpoints
+        │   └── epoch={epoch}-step={step}.ckpt
+        ├── logs
+        │   └── {exp_name}
+        │       └── {exp_version}
+        │           └── events.out.tfevents.{timestamp}.{hostname}.{pid}.v2
+        └── submissions
+            └── {timestamp}.json
+```
+
 ```
 * 데이터셋 디렉토리 구조
 
