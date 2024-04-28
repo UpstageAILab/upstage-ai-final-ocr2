@@ -213,6 +213,37 @@
     └─── train.py
 ```
 
+---
+## 모델 및 학습 설정
+### 파일 구조
+```plaintext
+└─── configs
+    ├── preset
+    │   ├── example.yaml
+    │   ├── base.yaml
+    │   ├── datasets
+    │   │   └── db.yaml
+    │   ├── lightning_modules
+    │   │   └── base.yaml
+    │   ├── metrics
+    │   │   └── cleval.yaml
+    │   └── models
+    │       ├── decoder
+    │       │   └── unet.yaml
+    │       ├── encoder
+    │       │   └── timm_backbone.yaml
+    │       ├── head
+    │       │   └── db_head.yaml
+    │       ├── loss
+    │       │   └── db_loss.yaml
+    │       ├── postprocess
+    │       │   └── base.yaml
+    │       └── model_example.yaml
+    ├── train.yaml
+    ├── test.yaml
+    └── predict.yaml
+```
+
 ```
 * 데이터셋 디렉토리 구조
 
