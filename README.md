@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nDCOQnZo)
 
 # Receipt Text Detection
-## OCR 2조
+## OCR 2조(우승현)
 
 | ![우승현](https://avatars.githubusercontent.com/u/156163982?v=4) | ![팀원](https://avatars.githubusercontent.com/u/156163982?v=4) | ![팀원](https://avatars.githubusercontent.com/u/156163982?v=4) | ![팀원](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
