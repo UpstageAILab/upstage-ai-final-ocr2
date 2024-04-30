@@ -316,7 +316,7 @@ jsons 디렉토리에는 평가 데이터의 레이블 정보를 담고 있는 t
 
 ### Presentation
 
-[우승현.pdf](https://github.com/UpstageAILab/upstage-ai-final-ocr2/files/15142286/default.pdf)
+[우승현_발표자료.pdf](https://github.com/UpstageAILab/upstage-ai-final-ocr2/files/15167850/_.pdf)
 
 ### etc
 
